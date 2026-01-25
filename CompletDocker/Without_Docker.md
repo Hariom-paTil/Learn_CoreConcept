@@ -233,7 +233,7 @@ graph TD
 
 ## 🔜 What's Next?
 
-**Next Topic:** ➡️ [**How Docker Solves These Problems**](./Docker_Solution.md)
+**Next Topic:** ➡️ [**What is Docker?**](./What_is_Docker.md)
 
 ### You'll Learn:
 - 🐳 What is Docker?
@@ -245,9 +245,9 @@ graph TD
 ---
 
 **📚 Related Topics:**
+- [What is Docker?](./What_is_Docker.md)
 - [Docker Basics](./Docker_Basics.md)
 - [Docker Installation](./Docker_Installation.md)
-- [Dockerfile Guide](./Dockerfile_Guide.md)
 
 ---
 
