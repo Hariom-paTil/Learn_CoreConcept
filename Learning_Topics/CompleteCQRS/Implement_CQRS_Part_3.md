@@ -60,6 +60,29 @@ CORS_CleanArchitecture
 
 ---
 
+## 📦 1️⃣ Layer → NuGet Packages Table
+
+| Layer | NuGet Package | Purpose |
+|-------|---------------|---------|
+| **CORS.API** (Presentation) | `MediatR` | Send Commands/Queries to Application layer |
+| | `MediatR.Extensions.Microsoft.DependencyInjection` | DI setup in Program.cs |
+| | `AutoMapper` | Map DTO ↔ Domain entities |
+| | `AutoMapper.Extensions.Microsoft.DependencyInjection` | DI setup in Program.cs |
+| | `Swashbuckle.AspNetCore` | Swagger / OpenAPI docs |
+| | `Microsoft.EntityFrameworkCore` | Optional direct EF access (usually not needed) |
+| | `Microsoft.EntityFrameworkCore.SqlServer` | Optional if API talks directly to DB |
+| **CORS.Domain** | *(None)* | **Keep pure**: Only Entities & Domain logic |
+| **CORS.Application** | `MediatR` | Handle Commands & Queries |
+| | `AutoMapper` | Map Domain ↔ DTO |
+| | `FluentValidation` | Optional: validate DTOs/commands |
+| | `System.ComponentModel.Annotations` | Data annotations for DTOs |
+| **CORS.Infrastructure** | `Microsoft.EntityFrameworkCore` | DbContext & EF mapping |
+| | `Microsoft.EntityFrameworkCore.SqlServer` | SQL Server provider |
+| | `Microsoft.EntityFrameworkCore.Tools` | Migrations & scaffolding |
+| | `AutoMapper` | Optional mapping in Infra (rare) |
+
+---
+
 <div align="center">
 
 **🔜 Next Step:** [**Part 4 - Domain Layer Implementation**](./Implement_CQRS_Part_4.md)
