@@ -141,6 +141,20 @@ Imagine a busy intersection.
 
 ---
 
+## 🎓 Required Skills to Master CQRS
+
+To effectively implement CQRS, you should be comfortable with these key concepts:
+
+| Skill | Why it's needed |
+|-------|-----------------|
+| **Design Patterns** | Specifically the **Mediator Pattern** (Decoupling) and **Repository Pattern** (Data Access). |
+| **Dependency Injection (DI)** | You need to know how to inject Services/Repositories into your Handlers. |
+| **Asynchronous Programming** | Handlers are almost always `async/await` to keep the API responsive. |
+| **Generics (C#)** | MediatR uses Generics extensively (e.g., `IRequestHandler<Command, Result>`). |
+| **DTOs (Data Transfer Objects)** | Understanding how to map Entities -> DTOs so queries don't expose your whole database. |
+
+---
+
 <div align="center">
 
 **💡 Key Takeaway:**
