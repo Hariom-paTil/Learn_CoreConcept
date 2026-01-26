@@ -1,4 +1,44 @@
+# 🧭 CQRS: Command Query Responsibility Segregation
 
+> **Separate the write path from the read path so each can scale and evolve independently.**
+
+---
+
+## ❓ What is CQRS
+
+CQRS is a software design pattern that splits the system into two sides:
+
+| Side | Role | Notes |
+|------|------|-------|
+| ✍️ **Commands** | Change data (create, update, delete) | Validate intent, perform the action, do **not** return data payloads |
+| 🔎 **Queries** | Read data (get, list, search) | Fetch and return data, do **not** modify state |
+
+This separation keeps modification logic and retrieval logic independent, making applications cleaner, more scalable, and easier to maintain.
+
+---
+
+## 🧩 Commands vs Queries (simple words)
+
+- Command → Changes data (Create, Update, Delete)
+- Query → Reads data (Get, List, Search)
+- A command never returns data; it only performs an action
+- A query never changes data; it only returns data
+
+---
+
+## 🚀 Why use CQRS
+
+| Benefit | What it gives you |
+|---------|-------------------|
+| 🧭 Clear responsibilities | Read and write paths stay focused and easier to reason about |
+| ⚡ Performance tuning | Optimize reads and writes separately (e.g., caches/read models vs. transactional write store) |
+| 🧪 Easier testing | Simpler, smaller handlers for commands and queries |
+| 🛠️ Maintenance | Changes on one side rarely impact the other |
+| 🧱 Plays well with Clean Architecture + MediatR | Commands/queries as request objects handled by dedicated handlers fit neatly into layered designs |
+
+---
+
+**Key idea:** One path changes state, the other reads state—keep them apart for clarity and scalability.
 <style>
 	:root {
 		--bg: #0f172a;
