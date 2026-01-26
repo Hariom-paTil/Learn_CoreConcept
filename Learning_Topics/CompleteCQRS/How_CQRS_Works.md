@@ -98,56 +98,35 @@ graph TD
     Infra -->|Data| DB[(Database)]
 ```
 
-**Text Version:**
+---
 
-```
-┌──────────────────────┐
-│      Client / UI     │
-│ (Browser / Postman)  │
-└───────────┬──────────┘
-            │ HTTP Request
-            ▼
-┌──────────────────────┐
-│  Presentation Layer  │
-│   (API Controller)   │
-│  - No business logic │
-└───────────┬──────────┘
-            │ Send Command / Query
-            ▼
-┌──────────────────────┐
-│    Application Layer │
-│   (CQRS + MediatR)   │
-│                      │
-│  ┌────────────────┐ │
-│  │ Command / Query│ │
-│  └───────┬────────┘ │
-│          │           │
-│  ┌───────▼────────┐ │
-│  │    Handler     │ │
-│  │ (Business Logic│ │
-│  └───────┬────────┘ │
-└──────────┼──────────┘
-           │ Call abstraction
-           ▼
-┌──────────────────────┐
-│    Domain Layer      │
-│  - Entities          │
-│  - Interfaces        │
-│  (IRepository)       │
-└──────────┬──────────┘
-           │ Implemented by
-           ▼
-┌──────────────────────┐
-│ Infrastructure Layer │
-│  - Repository        │
-│  - EF Core / DB      │
-└──────────┬──────────┘
-           │ Data
-           ▼
-┌──────────────────────┐
-│       Database       │
-└──────────────────────┘
-```
+## 🧩 The Role of MediatR
+
+You might see "MediatR" mentioned often with CQRS. **MediatR** is just a library that helps us implement this pattern easily in .NET.
+
+### 👮‍♂️ What is it? (The Traffic Controller)
+
+Imagine a busy intersection.
+- Without a Traffic Controller: Cars (Requests) drive everywhere, confused about where to go.
+- **With MediatR**: Every car stops and asks the Controller: *"I have a 'CreateOrder' request. Where do I go?"*
+- MediatR points and says: *"Go to handler #5."*
+
+### ⚙️ How it works in code
+
+1.  **The API Controller is dumb**: It doesn't know *how* to save a user. It just creates a message (Command) and gives it to MediatR.
+    ```csharp
+    // Controller just says "Here, take this!"
+    await _mediator.Send(new CreateUserCommand(name, email));
+    ```
+
+2.  **MediatR finds the Expert**: MediatR looks through your code to find the one class that knows how to handle `CreateUserCommand`.
+
+3.  **The Handler does the work**: The handler receives the message and executes the logic.
+
+### 🏆 Why use it?
+- **Decoupling**: The Controller doesn't need to depend on the Service. It only depends on MediatR.
+- **Single Responsibility**: Each handler does exactly one thing.
+- **Pipelines (Behaviors)**: Since all requests go through MediatR, you can easily add "Global Rules" like Logging, Validation, or Caching for *every* request automatically.
 
 ---
 
