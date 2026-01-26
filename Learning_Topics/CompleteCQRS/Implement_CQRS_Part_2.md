@@ -36,68 +36,69 @@ We split our application into four distinct circles (layers).
 Follow these steps in **Visual Studio Community** to set up the project structure.
 
 ### 🔹 Step 1: Open Visual Studio Community
-1.  Launch Visual Studio Community.
+1.  Launch **Visual Studio Community**.
 2.  Click **Create a new project**.
 
 ### 🔹 Step 2: Create the Presentation Layer (API)
-1.  Select **ASP.NET Core Web API**.
+1.  Search for and select **ASP.NET Core Web API**.
 2.  Click **Next**.
-3.  Enter Project Name: `Employ.Presentation`
+3.  **Project Configuration**:
+    *   **Project Name**: `Employ.Presentation`
 4.  Click **Next**.
-5.  Choose:
-    *   Framework: **.NET 8** (or .NET 7)
-    *   Authentication: **None**
-    *   Enable OpenAPI (Swagger): **✅ Yes**
+5.  **Additional Information**:
+    *   **Framework**: `.NET 8.0 (Long Term Support)`
+    *   **Authentication Type**: `None`
+    *   **Enable OpenAPI support**: ✅ Checked
 6.  Click **Create**.
 
 > **✅ Purpose of Presentation Layer**
-> *   Handles HTTP requests & responses
-> *   Contains: Controllers, API endpoints
-> *   Talks ONLY to **Application** layer
-> *   ❌ No database logic
-> *   ❌ No business rules
+> *   🌐 **Handles**: HTTP requests & responses.
+> *   📂 **Contains**: Controllers, API endpoints.
+> *   🚀 **Role**: Talks **ONLY** to the Application layer.
+> *   ❌ **Restricted**: No database logic, No business rules.
 
 ### 🔹 Step 3: Create Domain Layer
-1.  Right-click on **Solution 'Employ.Presentation'**.
-2.  Click **Add** → **New Project**.
-3.  Select **Class Library**.
+1.  Right-click on the **Solution 'Employ.Presentation'** in Solution Explorer.
+2.  Select **Add** → **New Project**.
+3.  Search for and select **Class Library**.
 4.  Click **Next**.
-5.  Project Name: `Employ.Domain`
+5.  **Project Configuration**:
+    *   **Project Name**: `Employ.Domain`
 6.  Click **Create**.
 
 > **✅ Purpose of Domain Layer**
-> *   Contains **core business rules**
-> *   Contains: Entities (Employ, etc.), Domain logic
-> *   **Independent** of all other layers
-> *   ❌ No Entity Framework
-> *   ❌ No Web API
-> *   ❌ No external dependencies
+> *   🧠 **Handles**: Core business rules.
+> *   📂 **Contains**: Entities (e.g., `Employ`), Domain Enums/Exceptions.
+> *   🛡️ **Role**: The heart of the system. **Independent** of all other layers.
+> *   ❌ **Restricted**: No Entity Framework, No Web API, No external dependencies.
 
 ### 🔹 Step 4: Create Application Layer
-1.  Right-click on **Solution**.
-2.  Click **Add** → **New Project**.
+1.  Right-click on the **Solution**.
+2.  Select **Add** → **New Project**.
 3.  Select **Class Library**.
 4.  Click **Next**.
-5.  Project Name: `Employ.Application`
+5.  **Project Configuration**:
+    *   **Project Name**: `Employ.Application`
 6.  Click **Create**.
 
 > **✅ Purpose of Application Layer**
-> *   Contains **CQRS logic**
-> *   Contains: Commands, Queries, DTOs, Interfaces (Repository, Services), MediatR handlers
-> *   Depends on **Domain** only
+> *   ⚙️ **Handles**: Application logic & Orchestration (CQRS).
+> *   📂 **Contains**: Commands, Queries, DTOs, Interfaces, Validators.
+> *   🤝 **Role**: Depends on **Domain** only.
 
 ### 🔹 Step 5: Create Infrastructure Layer
-1.  Right-click on **Solution**.
-2.  Click **Add** → **New Project**.
+1.  Right-click on the **Solution**.
+2.  Select **Add** → **New Project**.
 3.  Select **Class Library**.
 4.  Click **Next**.
-5.  Project Name: `Employ.Infrastructure`
+5.  **Project Configuration**:
+    *   **Project Name**: `Employ.Infrastructure`
 6.  Click **Create**.
 
 > **✅ Purpose of Infrastructure Layer**
-> *   Contains **technical implementations**
-> *   Contains: Entity Framework DbContext, Repository implementations, Database access
-> *   Implements interfaces from **Application** layer.
+> *   💾 **Handles**: Data access & External communications.
+> *   📂 **Contains**: `DbContext`, Repository Implementations, Email Services.
+> *   🔌 **Role**: Implements interfaces defined in the **Application** layer.
 
 ---
 
