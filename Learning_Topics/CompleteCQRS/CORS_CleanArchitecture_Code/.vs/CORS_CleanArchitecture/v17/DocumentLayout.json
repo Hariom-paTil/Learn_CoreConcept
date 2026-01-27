@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11494672-4F56-485D-B885-23B4306A223E}|..\\CORS.Infrastructure\\CORS.Infrastructure.csproj|d:\\newlearningcsharp\\cors.infrastructure\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\cqrs\\commands\\createemploycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\cors.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11494672-4F56-485D-B885-23B4306A223E}|..\\CORS.Infrastructure\\CORS.Infrastructure.csproj|d:\\newlearningcsharp\\cors.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A19ECF-0AA2-4C67-9605-ED21A1815EEB}|..\\CORS.Domain\\CORS.Domain.csproj|d:\\newlearningcsharp\\cors.domain\\domain\\employ.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\mappings\\employprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|d:\\newlearningcsharp\\cors_cleanarchitecture\\cors.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|solutionrelative:cors.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11494672-4F56-485D-B885-23B4306A223E}|..\\CORS.Infrastructure\\CORS.Infrastructure.csproj|d:\\newlearningcsharp\\cors.infrastructure\\services\\employservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\cqrs\\handlers\\createemployhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|d:\\newlearningcsharp\\cors_cleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\cqrs\\handlers\\getallemployhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11494672-4F56-485D-B885-23B4306A223E}|..\\CORS.Infrastructure\\CORS.Infrastructure.csproj|d:\\newlearningcsharp\\cors.infrastructure\\cors.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|d:\\newlearningcsharp\\cors_cleanarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\interfaces\\iemployservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\cqrs\\queries\\getallemployquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B814EA17-C197-4914-8220-C3AC42BCDF3C}|..\\CORS.Application\\CORS.Application.csproj|d:\\newlearningcsharp\\cors.application\\dtos\\employdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|d:\\newlearningcsharp\\cors_cleanarchitecture\\controllers\\employcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B260BFE5-816A-4EF8-B3AB-D61F7FFD7E9A}|CORS.Presentation.csproj|solutionrelative:controllers\\employcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployProfile.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\Mappings\\EmployProfile.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\Mappings\\EmployProfile.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\Mappings\\EmployProfile.cs",
+              "RelativeToolTip": "..\\CORS.Application\\Mappings\\EmployProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:07:33.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employ.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Domain\\Domain\\Employ.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Domain\\Domain\\Employ.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Domain\\Domain\\Employ.cs",
+              "RelativeToolTip": "..\\CORS.Domain\\Domain\\Employ.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:39:54.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\CORS.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:22:42.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployController.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\Controllers\\EmployController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployController.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\Controllers\\EmployController.cs",
+              "RelativeToolTip": "Controllers\\EmployController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:33:30.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateEmployCommand.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Commands\\CreateEmployCommand.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\CQRS\\Commands\\CreateEmployCommand.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Commands\\CreateEmployCommand.cs",
+              "RelativeToolTip": "..\\CORS.Application\\CQRS\\Commands\\CreateEmployCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:14:12.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployService.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Infrastructure\\Services\\EmployService.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Infrastructure\\Services\\EmployService.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Infrastructure\\Services\\EmployService.cs",
+              "RelativeToolTip": "..\\CORS.Infrastructure\\Services\\EmployService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:50:47.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "RelativeToolTip": "..\\CORS.Infrastructure\\GenericRepository\\GenericRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:48:35.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CORS.Application.csproj",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\CORS.Application.csproj",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\CORS.Application.csproj",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\CORS.Application.csproj",
+              "RelativeToolTip": "..\\CORS.Application\\CORS.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T07:28:09.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllEmployHandler.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Handlers\\GetAllEmployHandler.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\CQRS\\Handlers\\GetAllEmployHandler.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Handlers\\GetAllEmployHandler.cs",
+              "RelativeToolTip": "..\\CORS.Application\\CQRS\\Handlers\\GetAllEmployHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:15:20.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CORS.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Infrastructure\\CORS.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\CORS.Infrastructure\\CORS.Infrastructure.csproj",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Infrastructure\\CORS.Infrastructure.csproj",
+              "RelativeToolTip": "..\\CORS.Infrastructure\\CORS.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T08:22:04.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CORS.Presentation.csproj",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\CORS.Presentation.csproj",
+              "RelativeDocumentMoniker": "CORS.Presentation.csproj",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\CORS.Presentation.csproj",
+              "RelativeToolTip": "CORS.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-26T07:27:50.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:37:21.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateEmployHandler.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Handlers\\CreateEmployHandler.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\CQRS\\Handlers\\CreateEmployHandler.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Handlers\\CreateEmployHandler.cs",
+              "RelativeToolTip": "..\\CORS.Application\\CQRS\\Handlers\\CreateEmployHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:17:29.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS_CleanArchitecture\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T08:40:32.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\CORS.Application\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:44:20.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmployService.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\Interfaces\\IEmployService.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\Interfaces\\IEmployService.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\Interfaces\\IEmployService.cs",
+              "RelativeToolTip": "..\\CORS.Application\\Interfaces\\IEmployService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:45:59.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllEmployQuery.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Queries\\GetAllEmployQuery.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\CQRS\\Queries\\GetAllEmployQuery.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\CQRS\\Queries\\GetAllEmployQuery.cs",
+              "RelativeToolTip": "..\\CORS.Application\\CQRS\\Queries\\GetAllEmployQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T08:13:00.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployDto.cs",
+              "DocumentMoniker": "D:\\NewLearningCSharp\\CORS.Application\\DTOs\\EmployDto.cs",
+              "RelativeDocumentMoniker": "..\\CORS.Application\\DTOs\\EmployDto.cs",
+              "ToolTip": "D:\\NewLearningCSharp\\CORS.Application\\DTOs\\EmployDto.cs",
+              "RelativeToolTip": "..\\CORS.Application\\DTOs\\EmployDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:41:37.251Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

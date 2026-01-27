@@ -1,0 +1,6 @@
+@CORS_CleanArchitecture_HostAddress = http://localhost:5007
+
+GET {{CORS_CleanArchitecture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

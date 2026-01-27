@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CORS_CleanArchitecture.Controllers.EmployController",
+    "Method": "Get",
+    "RelativePath": "api/Employ",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CORS_CleanArchitecture.Controllers.EmployController",
+    "Method": "Post",
+    "RelativePath": "api/Employ",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CORS.Application.DTOs.EmployDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
