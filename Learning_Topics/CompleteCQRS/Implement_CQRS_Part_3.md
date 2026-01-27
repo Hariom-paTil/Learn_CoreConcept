@@ -58,6 +58,7 @@ CORS_CleanArchitecture
         └── 📄 EmployeeConfiguration.cs      (Optional Fluent API for EF Core)
 ```
 
+
 ---
 
 ## 📦 1️⃣ Layer → NuGet Packages Table
@@ -80,6 +81,61 @@ CORS_CleanArchitecture
 | | `Microsoft.EntityFrameworkCore.SqlServer` | SQL Server provider |
 | | `Microsoft.EntityFrameworkCore.Tools` | Migrations & scaffolding |
 | | `AutoMapper` | Optional mapping in Infra (rare) |
+
+---
+
+## 🧠 CQRS Implementation Guide
+
+### 🔹 Question 1: Does this READ data or CHANGE data?
+| Type | Meaning | Result |
+| :--- | :----- | :----- |
+| **Read** | Only fetch data, no state change | **Query** |
+| **Change** | Create / Update / Delete data | **Command** |
+
+### 🔹 Question 2: What data comes FROM the client?
+✍️ **Write this in plain text (NO CODE)**
+
+**Example: Register User**
+* Email
+* Password
+* FirstName
+
+👉 **These become Command properties**
+
+### 🔹 Question 3: What do I RETURN to the client?
+✍️ **Again, plain text only**
+
+**Example**
+* UserId
+* Email
+* CreatedAt
+
+👉 **This becomes your Response DTO**
+
+### 🔹 Question 4: What steps happen INSIDE the system?
+Say this sentence slowly 👇
+
+**Validate → Process → Save → Return**
+
+**Example (Register User)**
+1. Validate input
+2. Hash password
+3. Save user
+4. Return response
+
+👉 **This defines Handler logic**
+
+### 🔹 Question 5: Who owns each responsibility?
+📌 **THIS TABLE ENDS ALL CONFUSION**
+
+| Responsibility | Goes To |
+| :--- | :--- |
+| HTTP request / response | Controller |
+| Orchestration (flow) | Handler |
+| Business rules | Domain / Service |
+| Validation | Command / Validator |
+| Mapping | Handler |
+| Database access | Repository |
 
 ---
 
