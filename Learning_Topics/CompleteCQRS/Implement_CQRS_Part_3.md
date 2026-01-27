@@ -84,7 +84,8 @@ CORS_CleanArchitecture
 
 ---
 
-## 🧠 CQRS Implementation Guide
+## 🧠 CQRS Implementation Formula 
+# Every Time Before Implementing or Updating any Feature in the CQRS Architecture, Follow the Formula Below:
 
 ### 🔹 Question 1: Does this READ data or CHANGE data?
 | Type | Meaning | Result |
